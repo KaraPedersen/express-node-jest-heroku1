@@ -2,7 +2,7 @@ import app from '../lib/app.js';
 import supertest from 'supertest';
 const request = supertest(app);
 
-// If a GET reqest is made to /api/cats
+// If a GET request is made to /api/cats
 // does the server respond with status of 200
 // and body matching the cats data?
 it('GET /api/cats', async () => {
